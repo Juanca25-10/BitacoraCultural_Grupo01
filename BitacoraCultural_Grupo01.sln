@@ -13,6 +13,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		styles.css = styles.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursos", "Recursos", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagenes", "Imagenes", "{F68A0DCA-EB8D-45C5-ADA7-0B1E25F6914C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Videos", "Videos", "{A0E6573D-E69D-4A56-B554-A56FB3BA50F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI Iconos", "UI Iconos", "{7D018160-39CD-45D6-BBBE-21B0E7B55CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +34,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+		{F68A0DCA-EB8D-45C5-ADA7-0B1E25F6914C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A0E6573D-E69D-4A56-B554-A56FB3BA50F6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7D018160-39CD-45D6-BBBE-21B0E7B55CDB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13A171EE-E46A-48E8-B8B4-41888587817E}
